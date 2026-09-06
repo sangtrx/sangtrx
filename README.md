@@ -3,7 +3,7 @@
 
   <br />
 
-  <a href="https://sangtrx.github.io/sang-portfolio/"><b>Portfolio</b></a>
+  <a href="https://sangtrx.github.io/"><b>Portfolio</b></a>
   &nbsp;·&nbsp;
   <a href="https://linkedin.com/in/tqsang"><b>LinkedIn</b></a>
   &nbsp;·&nbsp;
@@ -35,7 +35,7 @@ Currently **Head of Artificial Intelligence at EPIC TECHNOLOGY**, with **6+ year
 
 Clinician-facing AI with governed knowledge retrieval, durable evidence state, exact citations, deterministic clinical authority and explicit validation boundaries.
 
-[View case study →](https://sangtrx.github.io/sang-portfolio/work/yhct/)
+[View case study →](https://sangtrx.github.io/work/yhct/)
 
 </td>
 <td width="50%" valign="top">
@@ -47,7 +47,7 @@ Clinician-facing AI with governed knowledge retrieval, durable evidence state, e
 
 Point-in-time research evidence, shared causal event infrastructure, OOF and multiplicity governance, research↔streaming parity, ML quality gates, lifecycle/risk/execution and public verification surfaces.
 
-[View case study →](https://sangtrx.github.io/sang-portfolio/work/curren/)
+[View case study →](https://sangtrx.github.io/work/curren/)
 
 </td>
 </tr>
@@ -110,5 +110,5 @@ My research spans temporal action understanding, vision-language modeling, video
     Ho Chi Minh City, Vietnam &nbsp;·&nbsp; Vietnamese / English
   </sub>
   <br /><br />
-  <a href="https://sangtrx.github.io/sang-portfolio/"><b>Explore the full proof-of-work portfolio →</b></a>
+  <a href="https://sangtrx.github.io/"><b>Explore the full proof-of-work portfolio →</b></a>
 </div>
