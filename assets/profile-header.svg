@@ -1,77 +1,154 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
   <title id="title">Sang Truong — Senior AI Engineer and Applied AI Lead</title>
-  <desc id="desc">Dark premium profile banner with blue and cyan light, subtle technical grid, and Sang Truong's professional positioning.</desc>
+  <desc id="desc">Premium ocean-blue profile banner with layered grainy gradients, luminous wave forms, subtle technical radar geometry, and Sang Truong's professional positioning.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#050912"/>
-      <stop offset="0.52" stop-color="#07111f"/>
-      <stop offset="1" stop-color="#061728"/>
+    <clipPath id="card">
+      <rect width="1280" height="360" rx="28"/>
+    </clipPath>
+
+    <linearGradient id="base" x1="80" y1="32" x2="1210" y2="338" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#020711"/>
+      <stop offset="0.36" stop-color="#061326"/>
+      <stop offset="0.68" stop-color="#05244A"/>
+      <stop offset="1" stop-color="#063A70"/>
     </linearGradient>
-    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1070 42) rotate(145) scale(520 300)">
-      <stop offset="0" stop-color="#20B8FF" stop-opacity="0.34"/>
-      <stop offset="0.46" stop-color="#087CFF" stop-opacity="0.13"/>
+
+    <radialGradient id="meshLeft" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(74 338) rotate(-35) scale(560 250)">
+      <stop offset="0" stop-color="#79E3FF" stop-opacity="0.36"/>
+      <stop offset="0.34" stop-color="#20B8FF" stop-opacity="0.20"/>
+      <stop offset="0.72" stop-color="#087CFF" stop-opacity="0.06"/>
       <stop offset="1" stop-color="#087CFF" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(190 350) rotate(-28) scale(450 230)">
-      <stop offset="0" stop-color="#79E3FF" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#79E3FF" stop-opacity="0"/>
+
+    <radialGradient id="meshCenter" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(770 150) rotate(18) scale(510 235)">
+      <stop offset="0" stop-color="#087CFF" stop-opacity="0.24"/>
+      <stop offset="0.42" stop-color="#20B8FF" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#20B8FF" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="accent" x1="142" y1="0" x2="490" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#79E3FF"/>
-      <stop offset="0.55" stop-color="#20B8FF"/>
-      <stop offset="1" stop-color="#087CFF"/>
+
+    <radialGradient id="meshRight" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1210 4) rotate(140) scale(540 300)">
+      <stop offset="0" stop-color="#9FF2FF" stop-opacity="0.52"/>
+      <stop offset="0.20" stop-color="#20B8FF" stop-opacity="0.34"/>
+      <stop offset="0.54" stop-color="#087CFF" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#087CFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="waveFill" x1="650" y1="54" x2="1240" y2="330" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#20B8FF" stop-opacity="0"/>
+      <stop offset="0.43" stop-color="#20B8FF" stop-opacity="0.12"/>
+      <stop offset="0.72" stop-color="#79E3FF" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#087CFF" stop-opacity="0.04"/>
     </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#91A5BA" stroke-opacity="0.055" stroke-width="1"/>
+
+    <linearGradient id="waveStroke" x1="640" y1="118" x2="1260" y2="316" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#79E3FF" stop-opacity="0"/>
+      <stop offset="0.46" stop-color="#79E3FF" stop-opacity="0.34"/>
+      <stop offset="0.76" stop-color="#A6F4FF" stop-opacity="0.82"/>
+      <stop offset="1" stop-color="#20B8FF" stop-opacity="0.08"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="94" y1="0" x2="510" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A6F4FF"/>
+      <stop offset="0.38" stop-color="#20B8FF"/>
+      <stop offset="0.78" stop-color="#087CFF"/>
+      <stop offset="1" stop-color="#087CFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="border" x1="44" y1="12" x2="1238" y2="354" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#79E3FF" stop-opacity="0.24"/>
+      <stop offset="0.35" stop-color="#20B8FF" stop-opacity="0.08"/>
+      <stop offset="0.72" stop-color="#20B8FF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#A6F4FF" stop-opacity="0.48"/>
+    </linearGradient>
+
+    <pattern id="microGrid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#A9DDF8" stroke-opacity="0.035" stroke-width="1"/>
     </pattern>
-    <filter id="grain" x="-20%" y="-20%" width="140%" height="140%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.82" numOctaves="3" stitchTiles="stitch" result="noise"/>
-      <feColorMatrix in="noise" type="saturate" values="0" result="mono"/>
-      <feComponentTransfer in="mono" result="faded">
-        <feFuncA type="table" tableValues="0 0.055"/>
-      </feComponentTransfer>
-      <feBlend in="SourceGraphic" in2="faded" mode="screen"/>
+
+    <filter id="blur48" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="48"/>
     </filter>
-    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="34"/>
+
+    <filter id="blur14" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+
+    <filter id="grain" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="4" seed="19" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix in="noise" type="matrix" values="
+        0 0 0 0 1
+        0 0 0 0 1
+        0 0 0 0 1
+        0 0 0 .18 0" result="grainMap"/>
+      <feBlend in="SourceGraphic" in2="grainMap" mode="soft-light"/>
+    </filter>
+
+    <filter id="textGlow" x="-20%" y="-30%" width="140%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#20B8FF" flood-opacity="0.14" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
   </defs>
 
-  <rect width="1280" height="360" rx="28" fill="url(#bg)"/>
-  <rect width="1280" height="360" rx="28" fill="url(#grid)"/>
-  <rect width="1280" height="360" rx="28" fill="url(#glowA)"/>
-  <rect width="1280" height="360" rx="28" fill="url(#glowB)"/>
+  <g clip-path="url(#card)">
+    <rect width="1280" height="360" fill="url(#base)"/>
+    <rect width="1280" height="360" fill="url(#microGrid)"/>
 
-  <g opacity="0.7" filter="url(#soft)">
-    <ellipse cx="1095" cy="70" rx="190" ry="74" fill="#20B8FF" fill-opacity="0.12"/>
+    <!-- FeralUI-inspired soft colour blobs / mesh layers -->
+    <rect width="1280" height="360" fill="url(#meshLeft)"/>
+    <rect width="1280" height="360" fill="url(#meshCenter)"/>
+    <rect width="1280" height="360" fill="url(#meshRight)"/>
+
+    <g opacity="0.55" filter="url(#blur48)">
+      <ellipse cx="1060" cy="42" rx="250" ry="92" fill="#20B8FF" fill-opacity="0.24"/>
+      <ellipse cx="1242" cy="252" rx="290" ry="130" fill="#087CFF" fill-opacity="0.18"/>
+      <ellipse cx="180" cy="380" rx="330" ry="120" fill="#79E3FF" fill-opacity="0.13"/>
+    </g>
+
+    <!-- luminous ocean wave -->
+    <path d="M608 40C746 86 814 188 949 238C1070 284 1160 238 1306 294L1306 382H556C670 316 740 250 724 188C705 117 655 79 608 40Z" fill="url(#waveFill)"/>
+    <path d="M606 55C744 100 813 195 946 244C1067 289 1163 248 1302 301" fill="none" stroke="url(#waveStroke)" stroke-width="2.2" stroke-linecap="round" filter="url(#blur14)" opacity="0.72"/>
+    <path d="M606 55C744 100 813 195 946 244C1067 289 1163 248 1302 301" fill="none" stroke="url(#waveStroke)" stroke-width="1" stroke-linecap="round" opacity="0.76"/>
+
+    <!-- right-side radar / orbital geometry -->
+    <g transform="translate(1115 92)" fill="none" stroke="#8DEBFF">
+      <circle r="50" stroke-opacity="0.10"/>
+      <circle r="92" stroke-opacity="0.10"/>
+      <circle r="138" stroke-opacity="0.085"/>
+      <circle r="190" stroke-opacity="0.07"/>
+      <circle r="92" stroke-opacity="0.12" stroke-dasharray="3 7"/>
+      <path d="M-236 0H196M0-170V224" stroke-opacity="0.10"/>
+      <path d="M-182-136A228 228 0 0 1 170 170" stroke-opacity="0.07" stroke-dasharray="2 9"/>
+      <circle r="28" fill="#031326" fill-opacity="0.74" stroke-opacity="0.40"/>
+      <circle r="14" stroke="#20B8FF" stroke-opacity="0.62"/>
+      <circle r="6.5" fill="#79E3FF" stroke="none"/>
+      <circle cx="-92" cy="0" r="3" fill="#79E3FF" fill-opacity="0.72" stroke="none"/>
+      <circle cx="92" cy="0" r="3" fill="#79E3FF" fill-opacity="0.72" stroke="none"/>
+      <circle cx="0" cy="-92" r="3" fill="#79E3FF" fill-opacity="0.72" stroke="none"/>
+      <circle cx="0" cy="92" r="3" fill="#79E3FF" fill-opacity="0.72" stroke="none"/>
+      <circle cx="144" cy="-102" r="2.5" fill="#20B8FF" fill-opacity="0.74" stroke="none"/>
+      <circle cx="-145" cy="-66" r="2.5" fill="#20B8FF" fill-opacity="0.68" stroke="none"/>
+    </g>
+
+    <g font-family="Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+      <text x="94" y="90" fill="#89ECFF" font-size="14" font-weight="700" letter-spacing="4.5">SENIOR AI ENGINEER · APPLIED AI LEAD</text>
+
+      <text x="92" y="180" fill="#F7FCFF" font-size="72" font-weight="760" letter-spacing="-2.2" filter="url(#textGlow)">SANG TRUONG</text>
+
+      <rect x="94" y="210" width="416" height="3" rx="1.5" fill="url(#accent)"/>
+
+      <text x="94" y="258" fill="#D5E5F3" font-size="22" font-weight="450" letter-spacing="0.25">Building intelligent systems from research to production.</text>
+
+      <text x="94" y="300" fill="#9AB0C6" font-size="14" font-weight="520" letter-spacing="1.05">AGENTS  /  COMPUTER VISION  /  QUANT SYSTEMS  /  MULTIMODAL RESEARCH</text>
+    </g>
+
+    <!-- Fine print-like grain over the full blended scene -->
+    <rect width="1280" height="360" fill="#FFFFFF" fill-opacity="0.018" filter="url(#grain)" opacity="0.82"/>
   </g>
 
-  <g fill="none" stroke="#79E3FF" stroke-opacity="0.11">
-    <circle cx="1110" cy="88" r="112"/>
-    <circle cx="1110" cy="88" r="158"/>
-    <circle cx="1110" cy="88" r="207"/>
-    <path d="M930 89H1268M1110 -80V258"/>
-  </g>
-
-  <g font-family="Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
-    <text x="94" y="90" fill="#79E3FF" font-size="14" font-weight="700" letter-spacing="4.5">SENIOR AI ENGINEER · APPLIED AI LEAD</text>
-
-    <text x="92" y="180" fill="#F7FCFF" font-size="72" font-weight="760" letter-spacing="-2.2">SANG TRUONG</text>
-
-    <rect x="94" y="210" width="348" height="3" rx="1.5" fill="url(#accent)"/>
-
-    <text x="94" y="258" fill="#C8D7E8" font-size="22" font-weight="450" letter-spacing="0.25">Building intelligent systems from research to production.</text>
-
-    <text x="94" y="300" fill="#91A5BA" font-size="14" font-weight="520" letter-spacing="1.05">AGENTS  /  COMPUTER VISION  /  QUANT SYSTEMS  /  MULTIMODAL RESEARCH</text>
-  </g>
-
-  <g transform="translate(1110 89)">
-    <circle r="28" fill="#07182A" stroke="#79E3FF" stroke-opacity="0.36"/>
-    <circle r="8" fill="#79E3FF"/>
-    <circle r="15" fill="none" stroke="#20B8FF" stroke-opacity="0.42"/>
-    <path d="M-56 0H-22M22 0H56M0-56V-22M0 22V56" stroke="#79E3FF" stroke-opacity="0.34" stroke-linecap="round"/>
-  </g>
-
-  <rect width="1280" height="360" rx="28" fill="transparent" filter="url(#grain)" opacity="0.9"/>
-  <rect x="0.75" y="0.75" width="1278.5" height="358.5" rx="27.25" fill="none" stroke="#A8DFFF" stroke-opacity="0.12" stroke-width="1.5"/>
+  <rect x="0.75" y="0.75" width="1278.5" height="358.5" rx="27.25" fill="none" stroke="url(#border)" stroke-width="1.5"/>
 </svg>
