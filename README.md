@@ -98,7 +98,7 @@ Docker · Linux · Kubernetes · Playwright · Next.js
 
 ## Research & engineering
 
-**MEng, Computer Engineering — 4.0 / 4.0**  
+**Master of Science in Computer Engineering — 4.0 / 4.0**  
 Peer-reviewed work across **IJCV · AAAI · IEEE JBHI · Poultry Science · IEEE Access · ICIP · BMVC · IEEE BHI**.
 
 My research spans temporal action understanding, vision-language modeling, video paragraph captioning, medical time-series learning and industrial computer vision — with a consistent interest in turning experimental methods into systems that can actually be evaluated, deployed and operated.
