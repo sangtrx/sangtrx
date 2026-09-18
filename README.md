@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/profile-header.svg" width="100%" alt="Sang Truong — Senior AI Engineer & Applied AI Lead" />
+  <img src="./assets/profile-header.svg" width="100%" alt="Sang Truong — Senior AI Engineer · Applied AI Systems" />
 
   <br />
 
@@ -16,7 +16,7 @@
 
 I build **production AI systems end to end** — from research, data and model/tool design to APIs, distributed workloads, product surfaces, deployment, observability and operational reliability.
 
-Currently **Head of Artificial Intelligence at EPIC TECHNOLOGY**, with **6+ years** across agentic AI, LLM/RAG systems, computer vision and video intelligence, multimodal learning, quantitative ML, time-series systems and edge inference.
+Currently **Head of Artificial Intelligence at EPIC TECHNOLOGY**, with **8+ years** across agentic AI, LLM/RAG systems, computer vision and video intelligence, multimodal learning, quantitative ML, time-series systems and edge inference.
 
 > My work sits where research has to survive contact with production.
 
