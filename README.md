@@ -59,7 +59,9 @@ Point-in-time research evidence, shared causal event infrastructure, OOF and mul
 **Production multi-camera AI platform**  
 *AI / Computer Vision Systems Lead*
 
-Real-time camera ingest, YOLO perception, Vietnamese ALPR, tracking, temporal events, evidence capture, edge/runtime monitoring and automated recovery.
+Built most of the production software, using AI-assisted coding extensively: heterogeneous camera ingest, source identity and freshness checks, YOLO perception, Vietnamese ALPR, temporal events, evidence capture, monitoring and bounded recovery. Hardware installation was team-owned.
+
+[View case study →](https://sangtruong.me/work/epic-video/)
 
 </td>
 <td width="50%" valign="top">
@@ -69,7 +71,23 @@ Real-time camera ingest, YOLO perception, Vietnamese ALPR, tracking, temporal ev
 **AI4U conversational agent**  
 *AI Engineer · FPT Software*
 
-Azure OpenAI agent platform with LangGraph/LangChain orchestration, Qdrant RAG, tool/model routing, controlled execution, memory, guardrails, multilingual speech and distributed workloads.
+Contributed primarily to prompts, graph-node logic and AI tools in a **team-built** enterprise assistant using Azure OpenAI, LangGraph/LangChain and retrieval/safety workflows.
+
+[View case study →](https://sangtruong.me/work/enterprise-agents/)
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### 05 · Interview & Voice AI Systems
+
+**Speech-enabled interview workflows**  
+*AI Engineer · FPT Software · Team project*
+
+Worked on multilingual speech/conversational services within an interview application family connecting browser voice interaction, backend session state, asynchronous AI dialogue and evaluation. System architecture is not a claim of sole frontend, Java backend or infrastructure ownership.
+
+[View case study →](https://sangtruong.me/work/interview-voice/)
 
 </td>
 </tr>
