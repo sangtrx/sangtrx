@@ -1,7 +1,7 @@
 <div align="center">
-  <img src="./assets/profile-header.svg" width="100%" alt="Sang Truong — Senior AI Engineer · Applied AI Systems" />
+  <img src="./assets/profile-header.svg" width="100%" alt="Sang Truong | Senior AI Engineer, Applied AI Systems" />
 
-  <br />
+  <p><strong>Senior AI Engineer · Applied AI Systems</strong><br />Head of Artificial Intelligence at EPIC TECHNOLOGY</p>
 
   <a href="https://sangtruong.me/"><b>Portfolio</b></a>
   &nbsp;·&nbsp;
@@ -12,121 +12,74 @@
   <a href="mailto:tqsang97@gmail.com"><b>Email</b></a>
 </div>
 
-<br />
+## What I build
 
-I build **production AI systems end to end** — from research, data and model/tool design to APIs, distributed workloads, product surfaces, deployment, observability and operational reliability.
+I lead AI engineering at **EPIC TECHNOLOGY** and remain hands-on with architecture, implementation, testing and production delivery. I manage five engineers and QA colleagues while building the AI and backend paths of systems used in lending, healthcare, video intelligence, factory inspection and education.
 
-Currently **Head of Artificial Intelligence at EPIC TECHNOLOGY**, with **8+ years** across agentic AI, LLM/RAG systems, computer vision and video intelligence, multimodal learning, quantitative ML, time-series systems and edge inference.
+My work spans **LLM and agent systems, computer vision and edge AI, quantitative ML, speech, data platforms and distributed backends**. The hard problems are often outside the model: information available at decision time, source identity, clinical authority, state consistency, failure recovery and whether an evaluation result survives real operation.
 
-> My work sits where research has to survive contact with production.
-
----
+Before EPIC, I designed and implemented the core LangGraph orchestration for an enterprise assistant at FPT Software. My research background includes multimodal video understanding, industrial vision and biomedical machine learning.
 
 ## Selected systems
 
-<table>
-<tr>
-<td width="50%" valign="top">
+**Credit Risk ML & Decision Infrastructure · EPIC TECHNOLOGY**
 
-### 01 · Clinical AI & Decision Support
+Led architecture and hands-on engineering for an Australian consumer-lending risk workflow: governed Open Banking data, point-in-time Spark/Iceberg features, XGBoost/LightGBM models, SageMaker inference and staged production rollout. Worked on training-data leakage and offline/online feature consistency. The lender's identity remains confidential.
 
-**Ho Chi Minh City Traditional Medicine Hospital**  
-*AI Architect / Lead Builder · EPIC TECHNOLOGY*
+[Credit-risk engineering case study](https://sangtruong.me/work/credit-risk/)
 
-Clinician-facing AI with governed knowledge retrieval, durable evidence state, exact citations, deterministic clinical authority and explicit validation boundaries.
+**Clinical AI & Decision Support · EPIC TECHNOLOGY**
 
-[View case study →](https://sangtruong.me/work/yhct/)
+Designed and delivered clinician-facing AI for a traditional medicine hospital, combining prescription extraction, interaction and dose checks, governed retrieval, traceable answers and deterministic clinical rules. Physicians retain decision authority.
 
-</td>
-<td width="50%" valign="top">
+[Clinical AI case study](https://sangtruong.me/work/yhct/)
 
-### 02 · Curren
+**Production Multi-Camera Video Intelligence · EPIC TECHNOLOGY**
 
-**Quantitative intelligence & trading systems**  
-*Independent side project · Solo Builder*
+Architected and implemented most of the system's software: heterogeneous camera ingest, source identity/freshness, YOLO-based perception, license-plate recognition, temporal events, evidence capture, monitoring and bounded recovery. Physical camera installation was team-owned.
 
-Point-in-time research evidence, shared causal event infrastructure, OOF and multiplicity governance, research↔streaming parity, ML quality gates, lifecycle/risk/execution and public verification surfaces.
+[Video intelligence case study](https://sangtruong.me/work/epic-video/)
 
-[View case study →](https://sangtruong.me/work/curren/)
+**Manufacturing Fastener Visual Inspection · EPIC TECHNOLOGY**
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+Deployed YOLO-based incorrect/mismatched fastener inspection on one real manufacturing line. My work covered data preparation, camera/ROI calibration, inspection logic and recovery from false rejects after camera changes.
 
-### 03 · Video Intelligence
+**Internal AI Meeting Tool · EPIC TECHNOLOGY**
 
-**Production multi-camera AI platform**  
-*AI / Computer Vision Systems Lead*
+Built an internal desktop assistant for international product sales and technical presales. It combines live meeting speech, selected project/reference retrieval and on-demand technical answers to support colleagues without deep product expertise, then prepares discovery notes, CRM-ready summaries and customer follow-up drafts.
 
-Built most of the production software, using AI-assisted coding extensively: heterogeneous camera ingest, source identity and freshness checks, YOLO perception, Vietnamese ALPR, temporal events, evidence capture, monitoring and bounded recovery. Hardware installation was team-owned.
+[Sales and technical presales case study](https://sangtruong.me/work/internal-ai-meeting/)
 
-[View case study →](https://sangtruong.me/work/epic-video/)
+**Enterprise Conversational AI · FPT Software**
 
-</td>
-<td width="50%" valign="top">
+Designed and implemented the core LangGraph AI4U orchestration: conversation state, routing, tenant-aware retrieval, tool boundaries, retries and output safeguards. The surrounding product platform and AKS operations were team-owned.
 
-### 04 · Enterprise Agents
+[Enterprise agents case study](https://sangtruong.me/work/enterprise-agents/)
 
-**AI4U conversational agent**  
-*AI Engineer · FPT Software*
+**Curren · Independent Side Project, Solo Builder**
 
-Contributed primarily to prompts, graph-node logic and AI tools in a **team-built** enterprise assistant using Azure OpenAI, LangGraph/LangChain and retrieval/safety workflows.
+Built quantitative research and signal infrastructure around point-in-time evidence, reproducible evaluation, risk-gated lifecycle state and a sanitized read-only verification surface. Independent project since June 2026; no implied guaranteed returns or validated profitable alpha.
 
-[View case study →](https://sangtruong.me/work/enterprise-agents/)
+[Curren case study](https://sangtruong.me/work/curren/) · [Public code](https://github.com/sangtrx/curren)
 
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
+## Technical focus
 
-### 05 · Interview & Voice AI Systems
-
-**Speech-enabled interview workflows**  
-*AI Engineer · FPT Software · Team project*
-
-Worked on multilingual speech/conversational services within an interview application family connecting browser voice interaction, backend session state, asynchronous AI dialogue and evaluation. System architecture is not a claim of sole frontend, Java backend or infrastructure ownership.
-
-[View case study →](https://sangtruong.me/work/interview-voice/)
-
-</td>
-</tr>
-</table>
-
----
-
-## Technical depth
-
-| Domain | What I work on |
+| Domain | Engineering depth |
 |---|---|
-| **Applied AI · Agents · RAG** | Agent orchestration, retrieval, tools, memory, voice/real-time AI, authority boundaries, evaluation, guardrails and production backends |
-| **Computer Vision · Video · Edge** | Detection, ALPR/OCR, tracking, temporal events, media pipelines, TensorRT/CUDA, NVIDIA Jetson and physical-world reliability |
-| **Quant Research · Trading Systems** | Causal/PIT evidence, Arrow/Parquet research infrastructure, leakage & selection controls, ML quality gates, lifecycle/risk/execution and reconciliation |
-| **Research · Multimodal ML** | Temporal video understanding, vision-language learning, medical time-series representation learning and industrial computer vision |
+| **AI agents & backends** | Python, FastAPI, LangGraph/LangChain, RAG, PostgreSQL, Qdrant, Redis, Celery/RabbitMQ, tool and state contracts |
+| **Computer vision & edge** | PyTorch, TensorFlow, OpenCV, YOLO, ALPR, tracking, RTSP/HLS, FFmpeg, ONNX, TensorRT/CUDA, Jetson |
+| **Data, risk & quantitative ML** | Python/Rust, Spark/Iceberg, SageMaker, Arrow/Parquet, Polars/DuckDB, LightGBM/XGBoost, causal/time-aware evaluation |
+| **Product & operations** | TypeScript/React, Docker, Linux, cloud/on-prem delivery, observability, recovery, deployment and acceptance |
 
-```text
-Python · Rust · FastAPI · PostgreSQL · Redis · RabbitMQ · Celery
-PyTorch · TensorFlow · OpenCV · CUDA · TensorRT · ONNX Runtime
-Azure OpenAI · LangGraph · LangChain · Qdrant · Milvus · pgvector
-Arrow · Parquet · Polars · DuckDB · LightGBM · XGBoost · CatBoost
-Docker · Linux · Kubernetes · Playwright · Next.js
-```
+## Research and education
 
----
+- **M.S. Computer Engineering, University of Arkansas**, GPA **4.0/4.0**, awarded December 2023.
+- **B.Eng. Automation and Control Engineering, International University - VNU HCMC**, ranked **2nd in cohort (top 1%)**, GPA 3.50/4.00.
+- **Eight peer-reviewed publications** across venues including **IJCV, AAAI (2023 Oral), IEEE JBHI, Poultry Science, IEEE Access, ICIP, BMVC and IEEE BHI**. My work includes temporal/video-language learning, medical time-series ML and industrial computer vision.
+- In the CarcassFormer collaboration, I worked substantially on dataset preparation, annotation workflows, training, evaluation and scientific writing.
 
-## Research & engineering
-
-**Master of Science in Computer Engineering — 4.0 / 4.0**  
-Peer-reviewed work across **IJCV · AAAI · IEEE JBHI · Poultry Science · IEEE Access · ICIP · BMVC · IEEE BHI**.
-
-My research spans temporal action understanding, vision-language modeling, video paragraph captioning, medical time-series learning and industrial computer vision — with a consistent interest in turning experimental methods into systems that can actually be evaluated, deployed and operated.
+[Research record](https://scholar.google.com/citations?user=JG2yzhgAAAAJ) · [Full career and project portfolio](https://sangtruong.me/)
 
 ---
 
-<div align="center">
-  <sub>
-    Ho Chi Minh City, Vietnam &nbsp;·&nbsp; Vietnamese / English
-  </sub>
-  <br /><br />
-  <a href="https://sangtruong.me/"><b>Explore the full proof-of-work portfolio →</b></a>
-</div>
+Ho Chi Minh City, Vietnam · Vietnamese / English · [tqsang97@gmail.com](mailto:tqsang97@gmail.com)
