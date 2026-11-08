@@ -14,7 +14,7 @@
 
 ## What I build
 
-I lead AI engineering at **EPIC TECHNOLOGY** and remain hands-on with architecture, implementation, testing and production delivery. I manage five engineers and QA colleagues while building the AI and backend paths of systems used in lending, healthcare, video intelligence, factory inspection and education.
+I lead AI engineering at **EPIC TECHNOLOGY** and remain hands-on with architecture, implementation, testing and production delivery. I lead five direct reports across AI engineering, backend and QA while building the AI and backend paths of systems used in lending, healthcare, video intelligence, factory inspection and education.
 
 My work spans **LLM and agent systems, computer vision and edge AI, quantitative ML, speech, data platforms and distributed backends**. The hard problems are often outside the model: information available at decision time, source identity, clinical authority, state consistency, failure recovery and whether an evaluation result survives real operation.
 
